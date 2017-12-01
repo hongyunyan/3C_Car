@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ok.car_3c.MainActivity">
+    <item
+        android:id="@+id/show_devices"
+        android:orderInCategory="100"
+        android:title="@string/show_devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/start_bluetooth"
+        android:orderInCategory="100"
+        android:title="@string/start_bluetooth"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/find_devices"
+        android:orderInCategory="100"
+        android:title="@string/find_devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/connect_devices"
+        android:orderInCategory="100"
+        android:title="@string/connect_devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/connect"
+        android:orderInCategory="100"
+        android:title="@string/lll"
+        app:showAsAction="never" />
+
+</menu>
