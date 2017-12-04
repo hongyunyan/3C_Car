@@ -12,7 +12,7 @@
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/image"
-    />
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
 
 </RelativeLayout>

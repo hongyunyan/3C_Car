@@ -7,6 +7,30 @@
     android:orientation="vertical"
     android:weightSum="1">
 
+
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Connected"
+        android:textColor="#E8EAF6"
+        app:backgroundTint="#3F51B5"
+        android:id="@+id/connection"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_image" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -15,34 +39,23 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:text="工科创IIIC41组"
-        android:textColor="#01579B"
-        android:textSize="24sp"
-        android:textStyle="" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/connection"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/operation"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/operation"
-        android:layout_marginTop="136dp"
-        android:text="连接界面"
-        android:textColor="#E8EAF6"
-        app:backgroundTint="#3F51B5" />
+
+
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/operation"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/connection"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:text="操作界面"
+        android:layout_marginTop="35dp"
+        android:text="  Get Started!  "
         android:textColor="#E8EAF6"
         app:backgroundTint="#3F51B5" />
+
+
 
 </RelativeLayout>
 
